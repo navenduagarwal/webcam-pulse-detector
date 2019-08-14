@@ -6,7 +6,7 @@ a = Analysis(['get_pulse.py'],
              runtime_hooks=None)
 a.datas += [
     ('haarcascade_frontalface_alt.xml', 'haarcascade_frontalface_alt.xml', 'DATA')]
-pyz = PYZ(a.pure)
+pyz = PYZ(a.pure)q
 exe = EXE(pyz,
           a.scripts,
           a.binaries,
